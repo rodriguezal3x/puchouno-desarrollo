@@ -1,12 +1,20 @@
-import React from 'react'
-import Navbar from '../components/Navbar/Navbar'
+import React from 'react';
+import Navbar from '../components/Navbar';
+import Slider from '../components/Slider'
+import { Container, Headers, Section } from './style/Home.elements';
+
 
 const Home = () => {
   return (
-    <header>
-        <Navbar/>
-    </header>
-  )
+    <Container>
+        <Headers>
+            <Navbar/>
+        </Headers> 
+        <Section>
+            <Slider/>
+        </Section>     
+    </Container>
+    )
 }
 
-export default Home
+export default Home;
