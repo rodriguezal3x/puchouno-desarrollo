@@ -12,9 +12,8 @@ export const Headers = styled.header`
 height: 12%;
 max-height: 80px;
 width: 100%;
-border-bottom: 1px solid #000000;
-box-shadow: 0px 2px 10px #000000;
-background-color: #ffffff;
+background-color: #ffffff; 
+/* border-bottom: 1px solid #000000; */
 `;    
 
 
